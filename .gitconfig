@@ -1,0 +1,11 @@
+[rerere]
+enabled = true
+
+[includeIf "gitdir:~/workspace/@cdiscount/"]
+path = ~/workspace/@cdiscount/.gitconfig
+
+[includeIf "gitdir:~/workspace/@manomano/"]
+path = ~/workspace/@manomano/.gitconfig
+
+[includeIf "gitdir:~/workspace/private/"]
+path = ~/workspace/private/.gitconfig
